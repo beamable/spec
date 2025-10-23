@@ -5494,7 +5494,7 @@
     "/basic/content/manifests/unarchive": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5541,7 +5541,7 @@
     "/basic/content/manifest/pull": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5588,7 +5588,7 @@
     "/basic/content/manifest/history": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -5644,7 +5644,7 @@
     "/basic/content/binary": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5691,7 +5691,7 @@
     "/basic/content/manifests/pull": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5738,7 +5738,7 @@
     "/basic/content/content": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -5795,7 +5795,7 @@
     "/basic/content/localizations": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "responses": {
           "200": {
@@ -5821,7 +5821,7 @@
       },
       "put": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5856,7 +5856,7 @@
       },
       "delete": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5903,7 +5903,7 @@
     "/basic/content/text": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -5950,7 +5950,7 @@
     "/basic/content/manifest/exact": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -5998,7 +5998,7 @@
     "/basic/content/manifest": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6043,7 +6043,7 @@
       },
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -6090,7 +6090,7 @@
     "/basic/content/manifest/diffs": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6185,7 +6185,7 @@
     "/basic/content/manifests/archive": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -6232,7 +6232,7 @@
     "/basic/content/": {
       "post": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -6279,7 +6279,7 @@
     "/basic/content/manifest/public": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6335,7 +6335,7 @@
     "/basic/content/manifest/public/json": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6391,7 +6391,7 @@
     "/basic/content/manifest/repeat": {
       "put": {
         "tags": [
-          "content"
+          "Content"
         ],
         "requestBody": {
           "content": {
@@ -6438,7 +6438,7 @@
     "/basic/content/manifest/private/json": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6495,7 +6495,7 @@
     "/basic/content/manifest/private": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6552,7 +6552,7 @@
     "/basic/content/manifest/checksums": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "responses": {
           "200": {
@@ -6590,7 +6590,7 @@
     "/basic/content/manifest/checksum": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "parameters": [
           {
@@ -6646,7 +6646,7 @@
     "/basic/content/manifests": {
       "get": {
         "tags": [
-          "content"
+          "Content"
         ],
         "responses": {
           "200": {
@@ -6684,7 +6684,7 @@
     "/basic/beamo/microservice/registrations": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6731,7 +6731,7 @@
     "/basic/beamo/microservice/federation/traffic": {
       "put": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6766,7 +6766,7 @@
       },
       "delete": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6813,7 +6813,7 @@
     "/basic/beamo/image/urls": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6860,7 +6860,7 @@
     "/basic/beamo/metricsUrl": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6907,7 +6907,7 @@
     "/basic/beamo/microservice/secret": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -6945,7 +6945,7 @@
     "/basic/beamo/queryLogs/result": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -6992,7 +6992,7 @@
     "/basic/beamo/storage/performance": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "parameters": [
           {
@@ -7069,7 +7069,7 @@
     "/basic/beamo/manifests": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "parameters": [
           {
@@ -7132,7 +7132,7 @@
     "/basic/beamo/templates": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7170,7 +7170,7 @@
     "/basic/beamo/queryLogs": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7205,7 +7205,7 @@
       },
       "delete": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7252,7 +7252,7 @@
     "/basic/beamo/logsUrl": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7299,7 +7299,7 @@
     "/basic/beamo/image/commit": {
       "put": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7346,7 +7346,7 @@
     "/basic/beamo/uploadAPI": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7384,7 +7384,7 @@
     "/basic/beamo/status": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7422,7 +7422,7 @@
     "/basic/beamo/manifest/current": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "parameters": [
           {
@@ -7469,7 +7469,7 @@
     "/basic/beamo/manifest/pull": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7516,7 +7516,7 @@
     "/basic/beamo/registry": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7554,7 +7554,7 @@
     "/basic/beamo/manifest/deploy": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7592,7 +7592,7 @@
     "/basic/beamo/microservice/federation": {
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7639,7 +7639,7 @@
     "/basic/beamo/storage/connection": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "responses": {
           "200": {
@@ -7677,7 +7677,7 @@
     "/basic/beamo/manifest": {
       "get": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "parameters": [
           {
@@ -7720,7 +7720,7 @@
       },
       "post": {
         "tags": [
-          "beamo"
+          "Beamo"
         ],
         "requestBody": {
           "content": {
@@ -7767,7 +7767,7 @@
     "/object/event-players/{objectId}/": {
       "get": {
         "tags": [
-          "event-players"
+          "Event-players"
         ],
         "parameters": [
           {
@@ -7820,7 +7820,7 @@
     "/object/event-players/{objectId}/claim": {
       "post": {
         "tags": [
-          "event-players"
+          "Event-players"
         ],
         "parameters": [
           {
@@ -7882,7 +7882,7 @@
     "/object/event-players/{objectId}/score": {
       "put": {
         "tags": [
-          "event-players"
+          "Event-players"
         ],
         "parameters": [
           {
@@ -7943,7 +7943,7 @@
     "/basic/events/content": {
       "get": {
         "tags": [
-          "events"
+          "Events"
         ],
         "responses": {
           "200": {
@@ -7981,7 +7981,7 @@
     "/basic/events/calendar": {
       "get": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8050,7 +8050,7 @@
     "/basic/events/applyContent": {
       "post": {
         "tags": [
-          "events"
+          "Events"
         ],
         "requestBody": {
           "content": {
@@ -8097,7 +8097,7 @@
     "/basic/events/running": {
       "get": {
         "tags": [
-          "events"
+          "Events"
         ],
         "responses": {
           "200": {
@@ -8134,7 +8134,7 @@
     "/object/events/{objectId}/endPhase": {
       "put": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8195,7 +8195,7 @@
     "/object/events/{objectId}/": {
       "get": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8247,7 +8247,7 @@
     "/object/events/{objectId}/ping": {
       "get": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8299,7 +8299,7 @@
     "/object/events/{objectId}/content": {
       "put": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8348,7 +8348,7 @@
       },
       "delete": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8400,7 +8400,7 @@
     "/object/events/{objectId}/refresh": {
       "put": {
         "tags": [
-          "events"
+          "Events"
         ],
         "parameters": [
           {
@@ -8452,7 +8452,7 @@
     "/object/group-users/{objectId}/availability": {
       "get": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8533,7 +8533,7 @@
     "/object/group-users/{objectId}/recommended": {
       "get": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8585,7 +8585,7 @@
     "/object/group-users/{objectId}/join": {
       "post": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8634,7 +8634,7 @@
       },
       "delete": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8695,7 +8695,7 @@
     "/object/group-users/{objectId}/group": {
       "post": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8756,7 +8756,7 @@
     "/object/group-users/{objectId}/search": {
       "get": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8899,7 +8899,7 @@
     "/object/group-users/{objectId}/": {
       "get": {
         "tags": [
-          "group-users"
+          "Group-users"
         ],
         "parameters": [
           {
@@ -8951,7 +8951,7 @@
     "/object/groups/{objectId}/role": {
       "put": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9013,7 +9013,7 @@
     "/object/groups/{objectId}/kick": {
       "post": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9074,7 +9074,7 @@
     "/object/groups/{objectId}/apply": {
       "post": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9136,7 +9136,7 @@
     "/object/groups/{objectId}/donations": {
       "post": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9186,7 +9186,7 @@
       },
       "put": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9248,7 +9248,7 @@
     "/object/groups/{objectId}/member": {
       "delete": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9309,7 +9309,7 @@
     "/object/groups/{objectId}/": {
       "get": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9349,7 +9349,7 @@
       },
       "put": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9398,7 +9398,7 @@
       },
       "delete": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9459,7 +9459,7 @@
     "/object/groups/{objectId}/donations/claim": {
       "put": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9512,7 +9512,7 @@
     "/object/groups/{objectId}/invite": {
       "post": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9574,7 +9574,7 @@
     "/object/groups/{objectId}/petition": {
       "post": {
         "tags": [
-          "groups"
+          "Groups"
         ],
         "parameters": [
           {
@@ -9636,7 +9636,7 @@
     "/basic/inventory/items": {
       "get": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "responses": {
           "200": {
@@ -9673,7 +9673,7 @@
     "/basic/inventory/currency": {
       "get": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "responses": {
           "200": {
@@ -9710,7 +9710,7 @@
     "/object/inventory/{objectId}/preview": {
       "put": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -9772,7 +9772,7 @@
     "/object/inventory/{objectId}/multipliers": {
       "get": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -9825,7 +9825,7 @@
     "/object/inventory/{objectId}/transaction": {
       "delete": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -9888,7 +9888,7 @@
     "/object/inventory/{objectId}/": {
       "get": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -9936,7 +9936,7 @@
       },
       "post": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -9986,7 +9986,7 @@
       },
       "put": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -10048,7 +10048,7 @@
     "/object/inventory/{objectId}/proxy/reload": {
       "put": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -10101,7 +10101,7 @@
     "/object/inventory/{objectId}/transfer": {
       "put": {
         "tags": [
-          "inventory"
+          "Inventory"
         ],
         "parameters": [
           {
@@ -10164,7 +10164,7 @@
     "/basic/leaderboards/list": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10234,7 +10234,7 @@
     "/basic/leaderboards/player": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10283,7 +10283,7 @@
     "/basic/leaderboards/assignment": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10338,7 +10338,7 @@
     "/basic/leaderboards/uid": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "responses": {
           "200": {
@@ -10376,7 +10376,7 @@
     "/object/leaderboards/{objectId}/entries": {
       "delete": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10428,7 +10428,7 @@
     "/object/leaderboards/{objectId}/membership": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10489,7 +10489,7 @@
     "/object/leaderboards/{objectId}/ranks": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10548,7 +10548,7 @@
     "/object/leaderboards/{objectId}/partition": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10609,7 +10609,7 @@
     "/object/leaderboards/{objectId}/friends": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10661,7 +10661,7 @@
     "/object/leaderboards/{objectId}/": {
       "post": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10710,7 +10710,7 @@
       },
       "delete": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10762,7 +10762,7 @@
     "/object/leaderboards/{objectId}/matches": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10840,7 +10840,7 @@
     "/object/leaderboards/{objectId}/assignment": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10880,7 +10880,7 @@
       },
       "delete": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10941,7 +10941,7 @@
     "/object/leaderboards/{objectId}/entry": {
       "put": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -10989,7 +10989,7 @@
       },
       "delete": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -11050,7 +11050,7 @@
     "/object/leaderboards/{objectId}/freeze": {
       "put": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -11102,7 +11102,7 @@
     "/object/leaderboards/{objectId}/details": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -11170,7 +11170,7 @@
     "/object/leaderboards/{objectId}/view": {
       "get": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -11267,7 +11267,7 @@
     "/object/leaderboards/{objectId}/swap": {
       "put": {
         "tags": [
-          "leaderboards"
+          "Leaderboards"
         ],
         "parameters": [
           {
@@ -11328,7 +11328,7 @@
     "/basic/accounts/me/device": {
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11375,7 +11375,7 @@
     "/basic/accounts/me": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "responses": {
           "200": {
@@ -11401,7 +11401,7 @@
       },
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11448,7 +11448,7 @@
     "/basic/accounts/me/third-party": {
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11495,7 +11495,7 @@
     "/basic/accounts/get-personally-identifiable-information": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -11542,7 +11542,7 @@
     "/basic/accounts/search": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -11608,7 +11608,7 @@
     "/basic/accounts/email-update/init": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11655,7 +11655,7 @@
     "/basic/accounts/email-update/confirm": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11702,7 +11702,7 @@
     "/basic/accounts/available/external_identity": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -11764,7 +11764,7 @@
     "/basic/accounts/available/third-party": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -11819,7 +11819,7 @@
     "/basic/accounts/admin/admin-user": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11866,7 +11866,7 @@
     "/basic/accounts/register": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11913,7 +11913,7 @@
     "/basic/accounts/admin/me": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "responses": {
           "200": {
@@ -11951,7 +11951,7 @@
     "/basic/accounts/password-update/init": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -11997,7 +11997,7 @@
     "/basic/accounts/admin/admin-users": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "responses": {
           "200": {
@@ -12035,7 +12035,7 @@
     "/basic/accounts/find": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12083,7 +12083,7 @@
     "/basic/accounts/signup": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -12129,7 +12129,7 @@
     "/basic/accounts/available/device-id": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12176,7 +12176,7 @@
     "/basic/accounts/available": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12223,7 +12223,7 @@
     "/basic/accounts/password-update/confirm": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -12269,7 +12269,7 @@
     "/basic/accounts/external_identity": {
       "post": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -12304,7 +12304,7 @@
       },
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "requestBody": {
           "content": {
@@ -12351,7 +12351,7 @@
     "/object/accounts/{objectId}/admin/email": {
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12414,7 +12414,7 @@
     "/object/accounts/{objectId}/available-roles": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12467,7 +12467,7 @@
     "/object/accounts/{objectId}/role/report": {
       "get": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12521,7 +12521,7 @@
     "/object/accounts/{objectId}/role": {
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12572,7 +12572,7 @@
       },
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12635,7 +12635,7 @@
     "/object/accounts/{objectId}/admin/scope": {
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12686,7 +12686,7 @@
       },
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12749,7 +12749,7 @@
     "/object/accounts/{objectId}/admin/third-party": {
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12800,7 +12800,7 @@
       },
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12863,7 +12863,7 @@
     "/object/accounts/{objectId}/": {
       "put": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12926,7 +12926,7 @@
     "/object/accounts/{objectId}/admin/forget": {
       "delete": {
         "tags": [
-          "accounts"
+          "Accounts"
         ],
         "parameters": [
           {
@@ -12980,7 +12980,7 @@
     "/basic/stats/subscribe": {
       "put": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "requestBody": {
           "content": {
@@ -13015,7 +13015,7 @@
       },
       "delete": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "requestBody": {
           "content": {
@@ -13062,7 +13062,7 @@
     "/basic/stats/client/batch": {
       "get": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13124,7 +13124,7 @@
     "/basic/stats/batch": {
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "requestBody": {
           "content": {
@@ -13171,7 +13171,7 @@
     "/basic/stats/search": {
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "requestBody": {
           "content": {
@@ -13218,7 +13218,7 @@
     "/basic/stats/search/extended": {
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "requestBody": {
           "content": {
@@ -13265,7 +13265,7 @@
     "/object/stats/{objectId}/client/stringlist": {
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13327,7 +13327,7 @@
     "/object/stats/{objectId}/": {
       "get": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13375,7 +13375,7 @@
       },
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13425,7 +13425,7 @@
       },
       "delete": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13487,7 +13487,7 @@
     "/object/stats/{objectId}/client": {
       "get": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13535,7 +13535,7 @@
       },
       "post": {
         "tags": [
-          "stats"
+          "Stats"
         ],
         "parameters": [
           {
@@ -13597,7 +13597,7 @@
     "/basic/tournaments/search/groups": {
       "post": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "requestBody": {
           "content": {
@@ -13643,7 +13643,7 @@
     "/basic/tournaments/": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -13692,7 +13692,7 @@
       },
       "post": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "requestBody": {
           "content": {
@@ -13739,7 +13739,7 @@
     "/basic/tournaments/me/group": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -13786,7 +13786,7 @@
     "/basic/tournaments/rewards": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -13828,7 +13828,7 @@
       },
       "post": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "requestBody": {
           "content": {
@@ -13875,7 +13875,7 @@
     "/basic/tournaments/global": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -13962,7 +13962,7 @@
     "/basic/tournaments/standings/group": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14049,7 +14049,7 @@
     "/basic/tournaments/standings": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14136,7 +14136,7 @@
     "/basic/tournaments/admin/player": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14194,7 +14194,7 @@
       },
       "put": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "requestBody": {
           "content": {
@@ -14241,7 +14241,7 @@
     "/basic/tournaments/me": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14302,7 +14302,7 @@
     "/basic/tournaments/champions": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14366,7 +14366,7 @@
     "/basic/tournaments/score": {
       "post": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "requestBody": {
           "content": {
@@ -14412,7 +14412,7 @@
     "/basic/tournaments/groups": {
       "get": {
         "tags": [
-          "tournaments"
+          "Tournaments"
         ],
         "parameters": [
           {
@@ -14499,7 +14499,7 @@
     "/basic/auth/token/list": {
       "get": {
         "tags": [
-          "auth"
+          "Auth"
         ],
         "parameters": [
           {
@@ -14583,7 +14583,7 @@
     "/basic/auth/token": {
       "get": {
         "tags": [
-          "auth"
+          "Auth"
         ],
         "parameters": [
           {
@@ -14618,7 +14618,7 @@
       },
       "post": {
         "tags": [
-          "auth"
+          "Auth"
         ],
         "requestBody": {
           "content": {
@@ -14664,7 +14664,7 @@
     "/basic/auth/token/revoke": {
       "put": {
         "tags": [
-          "auth"
+          "Auth"
         ],
         "requestBody": {
           "content": {
@@ -14711,7 +14711,7 @@
     "/basic/cloudsaving/data/replace": {
       "post": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14758,7 +14758,7 @@
     "/basic/cloudsaving/data": {
       "delete": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14805,7 +14805,7 @@
     "/basic/cloudsaving/data/downloadURL": {
       "post": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14852,7 +14852,7 @@
     "/basic/cloudsaving/data/downloadURLFromPortal": {
       "post": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14899,7 +14899,7 @@
     "/basic/cloudsaving/data/move": {
       "put": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14946,7 +14946,7 @@
     "/basic/cloudsaving/data/moveFromPortal": {
       "put": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -14993,7 +14993,7 @@
     "/basic/cloudsaving/data/uploadURLFromPortal": {
       "post": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -15040,7 +15040,7 @@
     "/basic/cloudsaving/data/commitManifest": {
       "put": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -15087,7 +15087,7 @@
     "/basic/cloudsaving/data/uploadURL": {
       "post": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "requestBody": {
           "content": {
@@ -15134,7 +15134,7 @@
     "/basic/cloudsaving/": {
       "get": {
         "tags": [
-          "cloudsaving"
+          "Cloudsaving"
         ],
         "parameters": [
           {
@@ -15181,7 +15181,7 @@
     "/basic/payments/windows/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15227,7 +15227,7 @@
     "/basic/payments/audits": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -15319,7 +15319,7 @@
     "/basic/payments/windows/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15365,7 +15365,7 @@
     "/basic/payments/test/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15412,7 +15412,7 @@
     "/basic/payments/facebook/update": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -15463,7 +15463,7 @@
       },
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15509,7 +15509,7 @@
     "/basic/payments/steam/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15556,7 +15556,7 @@
     "/basic/payments/facebook/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15602,7 +15602,7 @@
     "/basic/payments/facebook/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15649,7 +15649,7 @@
     "/basic/payments/test/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15695,7 +15695,7 @@
     "/basic/payments/itunes/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -15742,7 +15742,7 @@
     "/basic/payments/googleplay/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15788,7 +15788,7 @@
     "/basic/payments/test/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15834,7 +15834,7 @@
     "/basic/payments/googleplay/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15881,7 +15881,7 @@
     "/basic/payments/itunes/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15928,7 +15928,7 @@
     "/basic/payments/googleplay/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -15974,7 +15974,7 @@
     "/basic/payments/facebook/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16021,7 +16021,7 @@
     "/basic/payments/coupon/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16067,7 +16067,7 @@
     "/basic/payments/steam/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16113,7 +16113,7 @@
     "/basic/payments/facebook/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16159,7 +16159,7 @@
     "/basic/payments/itunes/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16206,7 +16206,7 @@
     "/basic/payments/test/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16252,7 +16252,7 @@
     "/basic/payments/test/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16299,7 +16299,7 @@
     "/basic/payments/googleplay/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16345,7 +16345,7 @@
     "/basic/payments/steam/prices": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -16393,7 +16393,7 @@
     "/basic/payments/windows/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16439,7 +16439,7 @@
     "/basic/payments/test/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16486,7 +16486,7 @@
     "/basic/payments/coupon/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16533,7 +16533,7 @@
     "/basic/payments/itunes/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16579,7 +16579,7 @@
     "/basic/payments/itunes/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16625,7 +16625,7 @@
     "/basic/payments/coupon/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16672,7 +16672,7 @@
     "/basic/payments/facebook/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16718,7 +16718,7 @@
     "/basic/payments/steam/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16764,7 +16764,7 @@
     "/basic/payments/facebook/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16811,7 +16811,7 @@
     "/basic/payments/steam/order": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -16859,7 +16859,7 @@
     "/basic/payments/coupon/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16905,7 +16905,7 @@
     "/basic/payments/windows/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -16952,7 +16952,7 @@
     "/basic/payments/windows/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -16999,7 +16999,7 @@
     "/basic/payments/googleplay/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17046,7 +17046,7 @@
     "/basic/payments/facebook/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17093,7 +17093,7 @@
     "/basic/payments/googleplay/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17140,7 +17140,7 @@
     "/basic/payments/coupon/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17187,7 +17187,7 @@
     "/basic/payments/coupon/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17234,7 +17234,7 @@
     "/basic/payments/steam/purchase/begin": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17281,7 +17281,7 @@
     "/basic/payments/steam/products": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17329,7 +17329,7 @@
     "/basic/payments/steam/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17376,7 +17376,7 @@
     "/basic/payments/steam/auth": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17422,7 +17422,7 @@
     "/basic/payments/steam/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17469,7 +17469,7 @@
     "/basic/payments/coupon/purchase/complete": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17515,7 +17515,7 @@
     "/basic/payments/windows/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17562,7 +17562,7 @@
     "/basic/payments/googleplay/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17609,7 +17609,7 @@
     "/basic/payments/windows/purchase/fail": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17656,7 +17656,7 @@
     "/basic/payments/itunes/purchase/cancel": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17703,7 +17703,7 @@
     "/basic/payments/test/product": {
       "get": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "parameters": [
           {
@@ -17750,7 +17750,7 @@
     "/basic/payments/steam/purchase/verify": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17796,7 +17796,7 @@
     "/basic/payments/itunes/purchase/track": {
       "post": {
         "tags": [
-          "payments"
+          "Payments"
         ],
         "requestBody": {
           "content": {
@@ -17842,7 +17842,7 @@
     "/basic/push/register": {
       "post": {
         "tags": [
-          "push"
+          "Push"
         ],
         "requestBody": {
           "content": {
@@ -17889,7 +17889,7 @@
     "/basic/push/send": {
       "post": {
         "tags": [
-          "push"
+          "Push"
         ],
         "requestBody": {
           "content": {
@@ -17936,7 +17936,7 @@
     "/basic/notification/channel": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -17983,7 +17983,7 @@
     "/basic/notification/player": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -18030,7 +18030,7 @@
     "/basic/notification/custom": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -18077,7 +18077,7 @@
     "/basic/notification/server": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -18124,7 +18124,7 @@
     "/basic/notification/generic": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -18171,7 +18171,7 @@
     "/basic/notification/": {
       "get": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "responses": {
           "200": {
@@ -18209,7 +18209,7 @@
     "/basic/notification/game": {
       "post": {
         "tags": [
-          "notification"
+          "Notification"
         ],
         "requestBody": {
           "content": {
@@ -18256,7 +18256,7 @@
     "/basic/realms/customer/activate": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -18312,7 +18312,7 @@
     "/basic/realms/project/beamable": {
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18359,7 +18359,7 @@
     "/basic/realms/customer/alias/available": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -18406,7 +18406,7 @@
     "/basic/realms/project": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18431,7 +18431,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18466,7 +18466,7 @@
       },
       "put": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18501,7 +18501,7 @@
       },
       "delete": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18548,7 +18548,7 @@
     "/basic/realms/customer/verify": {
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18594,7 +18594,7 @@
     "/basic/realms/games": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18632,7 +18632,7 @@
     "/basic/realms/config": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18658,7 +18658,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18693,7 +18693,7 @@
       },
       "put": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18740,7 +18740,7 @@
     "/basic/realms/project/rename": {
       "put": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18787,7 +18787,7 @@
     "/basic/realms/plans": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18813,7 +18813,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18860,7 +18860,7 @@
     "/basic/realms/client/defaults": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18897,7 +18897,7 @@
     "/basic/realms/customer": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -18923,7 +18923,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -18969,7 +18969,7 @@
     "/basic/realms/admin/inflight/failures": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -19012,7 +19012,7 @@
       },
       "delete": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19059,7 +19059,7 @@
     "/basic/realms/launch-message": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -19085,7 +19085,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19120,7 +19120,7 @@
       },
       "delete": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19167,7 +19167,7 @@
     "/basic/realms/is-customer": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -19204,7 +19204,7 @@
     "/basic/realms/admin/customer": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -19242,7 +19242,7 @@
     "/basic/realms/game": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -19279,7 +19279,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19314,7 +19314,7 @@
       },
       "put": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19361,7 +19361,7 @@
     "/basic/realms/project/promote": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -19420,7 +19420,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19467,7 +19467,7 @@
     "/basic/realms/customers": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "responses": {
           "200": {
@@ -19504,7 +19504,7 @@
     "/basic/realms/promotion": {
       "get": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "parameters": [
           {
@@ -19563,7 +19563,7 @@
       },
       "post": {
         "tags": [
-          "realms"
+          "Realms"
         ],
         "requestBody": {
           "content": {
@@ -19610,7 +19610,7 @@
     "/basic/social/my": {
       "get": {
         "tags": [
-          "social"
+          "Social"
         ],
         "responses": {
           "200": {
@@ -19648,7 +19648,7 @@
     "/basic/social/friends/invite": {
       "post": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19683,7 +19683,7 @@
       },
       "delete": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19730,7 +19730,7 @@
     "/basic/social/friends": {
       "delete": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19777,7 +19777,7 @@
     "/basic/social/friends/import": {
       "post": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19824,7 +19824,7 @@
     "/basic/social/friends/make": {
       "post": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19871,7 +19871,7 @@
     "/basic/social/": {
       "get": {
         "tags": [
-          "social"
+          "Social"
         ],
         "parameters": [
           {
@@ -19923,7 +19923,7 @@
     "/basic/social/blocked": {
       "post": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -19958,7 +19958,7 @@
       },
       "delete": {
         "tags": [
-          "social"
+          "Social"
         ],
         "requestBody": {
           "content": {
@@ -20005,7 +20005,7 @@
     "/object/chatV2/{objectId}/rooms": {
       "get": {
         "tags": [
-          "chatV2"
+          "ChatV2"
         ],
         "parameters": [
           {
@@ -20046,7 +20046,7 @@
       },
       "post": {
         "tags": [
-          "chatV2"
+          "ChatV2"
         ],
         "parameters": [
           {
@@ -20096,7 +20096,7 @@
       },
       "delete": {
         "tags": [
-          "chatV2"
+          "ChatV2"
         ],
         "parameters": [
           {
@@ -20158,7 +20158,7 @@
     "/object/chatV2/{objectId}/": {
       "get": {
         "tags": [
-          "chatV2"
+          "ChatV2"
         ],
         "parameters": [
           {
@@ -20218,7 +20218,7 @@
     "/object/chatV2/{objectId}/messages": {
       "post": {
         "tags": [
-          "chatV2"
+          "ChatV2"
         ],
         "parameters": [
           {
@@ -20280,7 +20280,7 @@
     "/basic/commerce/catalog/legacy": {
       "post": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "requestBody": {
           "content": {
@@ -20327,7 +20327,7 @@
     "/basic/commerce/catalog": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20375,7 +20375,7 @@
     "/basic/commerce/skus": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20410,7 +20410,7 @@
       },
       "post": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "requestBody": {
           "content": {
@@ -20457,7 +20457,7 @@
     "/object/commerce/{objectId}/": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20517,7 +20517,7 @@
     "/object/commerce/{objectId}/coupons/count": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20569,7 +20569,7 @@
     "/object/commerce/{objectId}/listings/cooldown": {
       "put": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20631,7 +20631,7 @@
     "/object/commerce/{objectId}/offersAdmin": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20705,7 +20705,7 @@
     "/object/commerce/{objectId}/purchase": {
       "post": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20755,7 +20755,7 @@
       },
       "put": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20817,7 +20817,7 @@
     "/object/commerce/{objectId}/listings": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20892,7 +20892,7 @@
     "/object/commerce/{objectId}/status": {
       "delete": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -20954,7 +20954,7 @@
     "/object/commerce/{objectId}/coupons": {
       "post": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -21016,7 +21016,7 @@
     "/object/commerce/{objectId}/stats/update": {
       "post": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -21078,7 +21078,7 @@
     "/object/commerce/{objectId}/offers": {
       "get": {
         "tags": [
-          "commerce"
+          "Commerce"
         ],
         "parameters": [
           {
@@ -21152,7 +21152,7 @@
     "/object/calendars/{objectId}/claim": {
       "post": {
         "tags": [
-          "calendars"
+          "Calendars"
         ],
         "parameters": [
           {
@@ -21213,7 +21213,7 @@
     "/object/calendars/{objectId}/": {
       "get": {
         "tags": [
-          "calendars"
+          "Calendars"
         ],
         "parameters": [
           {
@@ -21265,7 +21265,7 @@
     "/basic/announcements/list/tags": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21312,7 +21312,7 @@
     "/basic/announcements/list": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "responses": {
           "200": {
@@ -21350,7 +21350,7 @@
     "/basic/announcements/search": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21397,7 +21397,7 @@
     "/basic/announcements/list/definitions": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "responses": {
           "200": {
@@ -21435,7 +21435,7 @@
     "/basic/announcements/": {
       "post": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "requestBody": {
           "content": {
@@ -21470,7 +21470,7 @@
       },
       "delete": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "requestBody": {
           "content": {
@@ -21517,7 +21517,7 @@
     "/basic/announcements/content": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "responses": {
           "200": {
@@ -21555,7 +21555,7 @@
     "/object/announcements/{objectId}/read": {
       "put": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21617,7 +21617,7 @@
     "/object/announcements/{objectId}/claim": {
       "post": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21679,7 +21679,7 @@
     "/object/announcements/{objectId}/raw": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21732,7 +21732,7 @@
     "/object/announcements/{objectId}/": {
       "get": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21780,7 +21780,7 @@
       },
       "delete": {
         "tags": [
-          "announcements"
+          "Announcements"
         ],
         "parameters": [
           {
@@ -21842,7 +21842,7 @@
     "/basic/mail/attachments": {
       "put": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "requestBody": {
           "content": {
@@ -21889,7 +21889,7 @@
     "/basic/mail/template": {
       "get": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -21945,7 +21945,7 @@
     "/basic/mail/": {
       "get": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -21981,7 +21981,7 @@
       },
       "put": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "requestBody": {
           "content": {
@@ -22028,7 +22028,7 @@
     "/basic/mail/bulk": {
       "post": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "requestBody": {
           "content": {
@@ -22075,7 +22075,7 @@
     "/object/mail/{objectId}/detail": {
       "get": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22136,7 +22136,7 @@
     "/object/mail/{objectId}/categories": {
       "get": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22188,7 +22188,7 @@
     "/object/mail/{objectId}/search": {
       "post": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22249,7 +22249,7 @@
     "/object/mail/{objectId}/bulk": {
       "post": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22299,7 +22299,7 @@
       },
       "put": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22360,7 +22360,7 @@
     "/object/mail/{objectId}/accept/many": {
       "put": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22421,7 +22421,7 @@
     "/object/mail/{objectId}/": {
       "get": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22461,7 +22461,7 @@
       },
       "post": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22511,7 +22511,7 @@
       },
       "put": {
         "tags": [
-          "mail"
+          "Mail"
         ],
         "parameters": [
           {
@@ -22572,7 +22572,7 @@
     "/basic/session/heartbeat": {
       "post": {
         "tags": [
-          "session"
+          "Session"
         ],
         "responses": {
           "200": {
@@ -22610,7 +22610,7 @@
     "/basic/session/history": {
       "get": {
         "tags": [
-          "session"
+          "Session"
         ],
         "parameters": [
           {
@@ -22675,7 +22675,7 @@
     "/basic/session/status": {
       "get": {
         "tags": [
-          "session"
+          "Session"
         ],
         "parameters": [
           {
@@ -22732,7 +22732,7 @@
     "/basic/session/client/history": {
       "get": {
         "tags": [
-          "session"
+          "Session"
         ],
         "parameters": [
           {
@@ -22788,7 +22788,7 @@
     "/basic/session/": {
       "post": {
         "tags": [
-          "session"
+          "Session"
         ],
         "requestBody": {
           "content": {
@@ -22835,7 +22835,7 @@
     "/basic/trials/admin/data": {
       "get": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "parameters": [
           {
@@ -22884,7 +22884,7 @@
     "/basic/trials/data": {
       "post": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -22919,7 +22919,7 @@
       },
       "delete": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -22966,7 +22966,7 @@
     "/basic/trials/pause": {
       "put": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -23013,7 +23013,7 @@
     "/basic/trials/schedule": {
       "put": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -23060,7 +23060,7 @@
     "/basic/trials/": {
       "get": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "responses": {
           "200": {
@@ -23086,7 +23086,7 @@
       },
       "post": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -23121,7 +23121,7 @@
       },
       "delete": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
@@ -23168,7 +23168,7 @@
     "/basic/trials/admin": {
       "get": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "parameters": [
           {
@@ -23217,7 +23217,7 @@
     "/basic/trials/start": {
       "put": {
         "tags": [
-          "trials"
+          "Trials"
         ],
         "requestBody": {
           "content": {
